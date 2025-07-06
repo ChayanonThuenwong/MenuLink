@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NN Ordering Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="menu">
+            <div class="logo">
+                <img src="Image/logo1.png" alt="โลโก้">
+            </div>
+            <div class="link">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="line1"></div>
+        <div class="background"></div>
+    </header>
+
+    <div class="order-scroll">
+        <div class="order-list">
+                <div class="list">
+                    <div class="Meat">
+                        <img src="Image/Beef.png" alt="เมนูเนื้อ">
+                        <a href="#meat">Meat and Seas</a>
+                    </div>
+                    <div class="Vegetable">
+                        <img src="Image/Veg.png" alt="เมนูผัก">
+                        <a href="#vegetable">Vegetable</a>
+                    </div>
+                    <div class="Beverage">
+                        <img src="Image/Beverage.png" alt="เมนูเครื่องดื่ม">
+                        <a href="#beverage">Beverage</a>
+                    </div>
+                    <div class="Dessert">
+                        <img src="Image/Dessert.png" alt="เมนูของหวาน">
+                        <a href="#dessert">Dessert</a>
+                    </div>
+                </div>
+        </div>
+        <div class="line2"></div>
+    </div>
+
+
+    <!------------------------------------------------>
+    <!----------------- หน้าต่างกดเลือก ----------------->
+    <!------------------------------------------------>
+
+    <div>
+        
+            <div class="order-alert">
+                <h2 class="menu-sak">- เนื้อสัตว์และอาหารทะเล -</h2>
+                <div class="order-box">
+                    <img src="Image/order.png" alt="โลโก้รายการ">
+                    <span class="num-list" id="cart-count">00</span>
+                </div>
+            </div>
+        <section id="meat">
+            <div class="head-order">
+                <p class="head1">- เนื้อสัตว์ -</p>
+                <div class="order-bar">
+                    <div class="container">
+                        <div class="info">
+                            <div class="img">
+                                <img src="Image/san-kor.png">
+                            </div>
+                            <div class="name-order">
+                                <h3>เนื้อสันคอ</h3>
+                            </div>
+                            <div class="select-order">
+                                <button type="submit" class="btn">Select</button>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="info">
+                            <div class="img">
+                                <img src="Image/san-nok.png">
+                            </div>
+                            <div class="name-order">
+                                <h3>เนื้อสันนอก</h3>
+                            </div>
+                            <div class="select-order">
+                                <button type="submit" class="btn">Select</button>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="info">
+                            <div class="img">
+                                <img src="Image/san-nai.png">
+                            </div>
+                            <div class="name-order">
+                                <h3>เนื้อสันใน</h3>
+                            </div>
+                            <div class="select-order">
+                                <button type="submit" class="btn">Select</button>
+                            </div> 
+                        </div>
+                    </div>
+                    <!-- second line -->
+                    <div class="container">
+                        <div class="info">
+                            <div class="img">
+                                <img src="Image/pork-kor.png">
+                            </div>
+                            <div class="name-order">
+                                <h3>สันคอหมู</h3>
+                            </div>
+                            <div class="select-order">
+                                <button type="submit" class="btn">Select</button>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="info">
+                            <div class="img">
+                                <img src="Image/pork-nok.png">
+                            </div>
+                            <div class="name-order">
+                                <h3>สันนอกหมู</h3>
+                            </div>
+                            <div class="select-order">
+                                <button type="submit" class="btn">Select</button>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="info">
+                            <div class="img">
+                                <img src="Image/sam-chan.png">
+                            </div>
+                            <div class="name-order">
+                                <h3>หมูสามชั้น</h3>
+                            </div>
+                            <div class="select-order">
+                                <button type="submit" class="btn">Select</button>
+                            </div> 
+                        </div>
+                    </div>
+                    <!-- third line -->
+                    <div class="container">
+                        <div class="info">
+                            <div class="img">
+                                <img src="Image/san-naikai.png">
+                            </div>
+                            <div class="name-order">
+                                <h3>สันในไก่</h3>
+                            </div>
+                            <div class="select-order">
+                                <button type="submit" class="btn">Select</button>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="info">
+                            <div class="img">
+                                <img src="Image/oak-kai.png">
+                            </div>
+                            <div class="name-order">
+                                <h3>อกไก่</h3>
+                            </div>
+                            <div class="select-order">
+                                <button type="submit" class="btn">Select</button>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="info">
+                            <div class="img">
+                                <img src="Image/tab.png">
+                            </div>
+                            <div class="name-order">
+                                <h3>ตับ</h3>
+                            </div>
+                            <div class="select-order">
+                                <button type="submit" class="btn">Select</button>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="head2">
+                    <p>- อาหารทะเล -</p>
+                </div>
+
+                <div class="order-bar">
+                    <div class="container">
+                        <div class="info">
+                            <div class="img">
+                                <img src="Image/kung.png">
+                            </div>
+                            <div class="name-order">
+                                <h3>กุ้งลายเสือ</h3>
+                            </div>
+                            <div class="select-order">
+                                <button type="submit" class="btn">Select</button>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="info">
+                            <div class="img">
+                                <img src="Image/squid.png">
+                            </div>
+                            <div class="name-order">
+                                <h3>ปลาหมึก</h3>
+                            </div>
+                            <div class="select-order">
+                                <button type="submit" class="btn">Select</button>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="info">
+                            <div class="img">
+                                <img src="Image/dolly.png">
+                            </div>
+                            <div class="name-order">
+                                <h3>เนื้อปลาดอลลี่</h3>
+                            </div>
+                            <div class="select-order">
+                                <button type="submit" class="btn">Select</button>
+                            </div> 
+                        </div>
+                    </div>
+                    <!-- second line -->
+                    <div class="container">
+                        <div class="info">
+                            <div class="img">
+                                <img src="Image/krapun.png">
+                            </div>
+                            <div class="name-order">
+                                <h3>แมงกระพุน</h3>
+                            </div>
+                            <div class="select-order">
+                                <button type="submit" class="btn">Select</button>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="info">
+                            <div class="img">
+                                <img src="Image/malangpuu.png">
+                            </div>
+                            <div class="name-order">
+                                <h3>หอยแมลงภู่</h3>
+                            </div>
+                            <div class="select-order">
+                                <button type="submit" class="btn">Select</button>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+
+                <div class="head2">
+                    <p>- ของทานเล่น -</p>
+                </div>
+
+                <div class="order-bar">
+                    <div class="container">
+                        <div class="info">
+                            <div class="img">
+                                <img src="Image/puu-ad.png">
+                            </div>
+                            <div class="name-order">
+                                <h3>ปูอัด</h3>
+                            </div>
+                            <div class="select-order">
+                                <button type="submit" class="btn">Select</button>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="info">
+                            <div class="img">
+                                <img src="Image/pansalai.png">
+                            </div>
+                            <div class="name-order">
+                                <h3>หมูพันสาหร่าย</h3>
+                            </div>
+                            <div class="select-order">
+                                <button type="submit" class="btn">Select</button>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="info">
+                            <div class="img">
+                                <img src="Image/tao-hu.png">
+                            </div>
+                            <div class="name-order">
+                                <h3>เต้าหู้</h3>
+                            </div>
+                            <div class="select-order">
+                                <button type="submit" class="btn">Select</button>
+                            </div> 
+                        </div>
+                    </div>
+                    <!-- second line -->
+                    <div class="container">
+                        <div class="info">
+                            <div class="img">
+                                <img src="Image/tempura.png">
+                            </div>
+                            <div class="name-order">
+                                <h3>กุ้งเทมปุระ</h3>
+                            </div>
+                            <div class="select-order">
+                                <button type="submit" class="btn">Select</button>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="info">
+                            <div class="img">
+                                <img src="Image/yok.png">
+                            </div>
+                            <div class="name-order">
+                                <h3>บะหมี่หยก</h3>
+                            </div>
+                            <div class="select-order">
+                                <button type="submit" class="btn">Select</button>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+                <br>
+        </section>
+        <section id="vegetable"></section>
+                <!-- vegetable table -->
+                <div class="menu-vegetable">
+                    <h2>
+                    - ผักและผลไม้ -
+                    </h2>
+                </div>
+                <div class="order-bar2">
+                    <div class="container">
+                        <div class="info">
+                            <div class="img">
+                                <img src="Image/bung.png">
+                            </div>
+                            <div class="name-order">
+                                <h3>ผักบุ้ง</h3>
+                            </div>
+                            <div class="select-order">
+                                <button type="submit" class="btn">Select</button>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="info">
+                            <div class="img">
+                                <img src="Image/kwang.png">
+                            </div>
+                            <div class="name-order">
+                                <h3>ผักกวางตุ้ง</h3>
+                            </div>
+                            <div class="select-order">
+                                <button type="submit" class="btn">Select</button>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="info">
+                            <div class="img">
+                                <img src="Image/kem-tong.png">
+                            </div>
+                            <div class="name-order">
+                                <h3>เห็ดเข็มทอง</h3>
+                            </div>
+                            <div class="select-order">
+                                <button type="submit" class="btn">Select</button>
+                            </div> 
+                        </div>
+                    </div>
+                    <!-- second line -->
+                    <div class="container">
+                        <div class="info">
+                            <div class="img">
+                                <img src="Image/chimeji.png">
+                            </div>
+                            <div class="name-order">
+                                <h3>เห็ดชิเมจิ</h3>
+                            </div>
+                            <div class="select-order">
+                                <button type="submit" class="btn">Select</button>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="info">
+                            <div class="img">
+                                <img src="Image/orenji.png">
+                            </div>
+                            <div class="name-order">
+                                <h3>เห็ดออรินจิ</h3>
+                            </div>
+                            <div class="select-order">
+                                <button type="submit" class="btn">Select</button>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="info">
+                            <div class="img">
+                                <img src="Image/apple.png">
+                            </div>
+                            <div class="name-order">
+                                <h3>แอปเปิล</h3>
+                            </div>
+                            <div class="select-order">
+                                <button type="submit" class="btn">Select</button>
+                            </div> 
+                        </div>
+                    </div>
+
+                    <!-- third line -->
+                    <div class="container">
+                        <div class="info">
+                            <div class="img">
+                                <img src="Image/pine-apple.png">
+                            </div>
+                            <div class="name-order">
+                                <h3>สัปปะรด</h3>
+                            </div>
+                            <div class="select-order">
+                                <button type="submit" class="btn">Select</button>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="info">
+                            <div class="img">
+                                <img src="Image/farang.png">
+                            </div>
+                            <div class="name-order">
+                                <h3>ฝรั่ง</h3>
+                            </div>
+                            <div class="select-order">
+                                <button type="submit" class="btn">Select</button>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+
+        <section id="beverage">      
+                <!-- Beverage table -->
+                <div class="menu-vegetable">
+                    <h2>
+                    - เครื่องดิ่ม -
+                    </h2>
+                </div>
+                <div class="order-bar2">
+                    <div class="container">
+                        <div class="info">
+                            <div class="img">
+                                <img src="Image/punch.png">
+                            </div>
+                            <div class="name-order">
+                                <h3>น้ำพันซ์</h3>
+                            </div>
+                            <div class="select-order">
+                                <button type="submit" class="btn">Select</button>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="info">
+                            <div class="img">
+                                <img src="Image/straw.png">
+                            </div>
+                            <div class="name-order">
+                                <h3>น้ำสตรอเบอรี่ปั่น</h3>
+                            </div>
+                            <div class="select-order">
+                                <button type="submit" class="btn">Select</button>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="info">
+                            <div class="img">
+                                <img src="Image/orange.png">
+                            </div>
+                            <div class="name-order">
+                                <h3>น้ำส้มปั่น</h3>
+                            </div>
+                            <div class="select-order">
+                                <button type="submit" class="btn">Select</button>
+                            </div> 
+                        </div>
+                    </div>
+                    <!-- second line -->
+                    <div class="container">
+                        <div class="info">
+                            <div class="img">
+                                <img src="Image/thai-tea.png">
+                            </div>
+                            <div class="name-order">
+                                <h3>ชาไทย</h3>
+                            </div>
+                            <div class="select-order">
+                                <button type="submit" class="btn">Select</button>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="info">
+                            <div class="img">
+                                <img src="Image/green-tea.png">
+                            </div>
+                            <div class="name-order">
+                                <h3>ชาเขียว</h3>
+                            </div>
+                            <div class="select-order">
+                                <button type="submit" class="btn">Select</button>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="info">
+                            <div class="img">
+                                <img src="Image/water.png">
+                            </div>
+                            <div class="name-order">
+                                <h3>น้ำเปล่า</h3>
+                            </div>
+                            <div class="select-order">
+                                <button type="submit" class="btn">Select</button>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+
+
+        </section>
+        <section id="dessert">      
+                <!-- Dessert -->
+                <div class="menu-vegetable">
+                    <h2>
+                    - ของหวาน -
+                    </h2>
+                </div>
+                <br>
+
+                <div class="head3">
+                    <p>- ไอศกรีม -</p>
+                </div>
+                <div class="order-bar2">
+                    <div class="container">
+                        <div class="info">
+                            <div class="img">
+                                <img src="Image/kati.png">
+                            </div>
+                            <div class="name-order">
+                                <h3>รสกะทิ</h3>
+                            </div>
+                            <div class="select-order">
+                                <button type="submit" class="btn">Select</button>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="info">
+                            <div class="img">
+                                <img src="Image/i-straw.png">
+                            </div>
+                            <div class="name-order">
+                                <h3>รสสตรอเบอรี่</h3>
+                            </div>
+                            <div class="select-order">
+                                <button type="submit" class="btn">Select</button>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="info">
+                            <div class="img">
+                                <img src="Image/choc.png">
+                            </div>
+                            <div class="name-order">
+                                <h3>รสช็อกโกแลต</h3>
+                            </div>
+                            <div class="select-order">
+                                <button type="submit" class="btn">Select</button>
+                            </div> 
+                        </div>
+                    </div>
+                    <!-- second line -->
+                    <div class="container">
+                        <div class="info">
+                            <div class="img">
+                                <img src="Image/lemon.png">
+                            </div>
+                            <div class="name-order">
+                                <h3>รสมะนาว</h3>
+                            </div>
+                            <div class="select-order">
+                                <button type="submit" class="btn">Select</button>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="info">
+                            <div class="img">
+                                <img src="Image/ka-fare.png">
+                            </div>
+                            <div class="name-order">
+                                <h3>รสกาแฟ</h3>
+                            </div>
+                            <div class="select-order">
+                                <button type="submit" class="btn">Select</button>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+                <div class="head3">
+                    <p>- ของหวานไทย -</p>
+                </div>
+                <div class="order-bar2">
+                    <div class="container">
+                        <div class="info">
+                            <div class="img">
+                                <img src="Image/bua.png">
+                            </div>
+                            <div class="name-order">
+                                <h3>บัวลอย</h3>
+                            </div>
+                            <div class="select-order">
+                                <button type="submit" class="btn">Select</button>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="info">
+                            <div class="img">
+                                <img src="Image/tako.png">
+                            </div>
+                            <div class="name-order">
+                                <h3>ตะโก้</h3>
+                            </div>
+                            <div class="select-order">
+                                <button type="submit" class="btn">Select</button>
+                            </div> 
+                        </div>
+                    </div>
+            </div>
+            </section>
+        </div>
+        <br>
+        <br>
+        <br>
+    <!------------------------------------------------>
+    <!--------------- จบหน้าต่างกดเลือก ---------------->
+    <!------------------------------------------------>
+
+    <div class="line1"></div>
+    <footer>
+        <div class="footer-box">
+            <div class="submit-box">
+                <input type="email" placeholder="Enter your email for contact support">
+                <button class="footer-btn">Submit</button>
+            </div>
+            <div class="copy-text">
+                <p>© copyright 2025</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+    // เริ่มต้นตัวแปรนับจำนวน
+    let count = 0;
+
+    // เลือกปุ่มทั้งหมดที่มี class = select-btn
+    const selectButtons = document.querySelectorAll('.select-order');
+    const cartCount = document.getElementById('cart-count');
+
+    // ใส่ event listener ให้ทุกปุ่ม
+    selectButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            count++;
+            // แปลงตัวเลขให้เป็น 2 หลัก เช่น 01, 02, ...
+            cartCount.textContent = count.toString().padStart(2, '0');
+        });
+    });
+    </script>
+
+</body>
+</html>

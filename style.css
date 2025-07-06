@@ -15,6 +15,9 @@ section {
     box-sizing: border-box;
 }
 
+header {
+  width: 100%;
+}
 .menu {
     background-color: black;
     padding: 1rem;
@@ -256,6 +259,7 @@ footer {
     background-color: #333;
     align-items: center;
     padding: 1.5rem;
+    width: 100%;
 
 }
 
@@ -363,25 +367,51 @@ footer {
     margin: 0;
   }
   .list a {
-    font-size: 10px;
+    font-size: 8px;
+    margin-left: 0px ;
   }
   .list img {
-    margin-right: 0.5rem;
+    margin-left: 0rem;
   }
   .menu-sak {
     font-size: 23px;
   }
   .container {
-    width: 24rem;
+    width: 20rem;
+    height: 7rem;
+    align-items: center;
   }
   .name-order h3 {
     font-size: 15px;
   }
   .menu-vegetable h2 {
-    margin-bottom: 2rem;
+    margin-bottom: 2rem;  
   }
   .head3 p {
     top: -8px;
-
   }
+  .select-order button {
+    width: 4.5rem;
+  }
+  .background {
+    height: 15rem;
+  }
+  footer {
+    padding: 0.5rem;
+    align-items: center;
+  }
+  .footer-box {
+    margin: 0 1rem;
+  }
+  .submit-box input {
+    width: 7rem;
+  }
+  .footer-btn {
+    width: 4rem;
+  }
+  .copy-text {
+    font-size: 14px;
+  }
+
+
 }

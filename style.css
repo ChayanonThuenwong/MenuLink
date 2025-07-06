@@ -397,7 +397,8 @@ footer {
     height: 15rem;
   }
   footer {
-    padding: 0.5rem;
+    padding: 1rem;
+    padding: 1.5rem 1rem;
     align-items: center;
   }
   .footer-box {

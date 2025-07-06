@@ -357,3 +357,31 @@ footer {
   }
 
 }
+
+@media (max-width: 480px){
+  .list {
+    margin: 0;
+  }
+  .list a {
+    font-size: 10px;
+  }
+  .list img {
+    margin-right: 0.5rem;
+  }
+  .menu-sak {
+    font-size: 23px;
+  }
+  .container {
+    width: 24rem;
+  }
+  .name-order h3 {
+    font-size: 15px;
+  }
+  .menu-vegetable h2 {
+    margin-bottom: 2rem;
+  }
+  .head3 p {
+    top: -8px;
+
+  }
+}
